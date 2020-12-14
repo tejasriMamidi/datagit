@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="git.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="git"> 
+   
+    <a href="https://github.com/tejasriMamidi" id="link">github</a><br/>
+    <input type="url" name="hello" id="hello" placeholder="paste link here">
+    <button onclick="hello()" >submit</button>
+    <p id="para"></p>
+    </div>
+    
+    <script>
+        var link = document.getElementById("link");
+         var input = document.getElementById("input");
+         var btn = document.querySelector("button")
+         var p = document.querySelector("#para")
+        function hello(){
+                para.setAttribute("href",input.value)
+                 p.textContent = input.value
+                input.value=""
+        }
+    </script>
+</body>
+</html>

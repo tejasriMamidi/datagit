@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+#git{
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0,0,0, 0.5);
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(220, 225, 226);
+    color: rgb(26, 7, 167);
+    box-shadow: 2px 2px 3px rgba(0,0,0, 0.5);
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;
+    background-color: rgb(180, 178, 176);
+    box-shadow: 1px 1px 3px rgba(0,0,0, 0.5);
+}
+button{
+    padding: 10px ;
+    font-size: 20px;
+    font-weight: 400;
+}
